@@ -22,14 +22,14 @@ It's an simple blog for pdp.
   Admin can edit/archived articles and comments
   User can search article by name & text
 ```
-
-###Особенности реализации
+```
+### Особенности реализации
   Применить coffeescript
   Данные из seed
   Поиск через ransack
   Применить StrongParams, Simple Form, I18n
   Покрыть код тестами
-
+```
 
 ## Scripts
 
