@@ -1,0 +1,13 @@
+ru:
+  users:
+    registrations:
+      new:
+        title: "Регистрация"
+        sign_up: "Зарегистрироваться"
+      edit:
+        title: "Редактирование профиля %{full_name}"
+        update: "Обновить"
+        unhappy: "Разочарованы?"
+        cancel_account: "Удалить аккаунт"
+        cancel_my_account: "Удалите свой аккаунт"
+

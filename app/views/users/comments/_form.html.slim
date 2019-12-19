@@ -1,0 +1,6 @@
+= simple_form_for([:users, comment.article, comment], data: { remote: true, behavior: "fragments" }) do |f|
+  .form-inputs
+    = f.input :text, input_html: { rows: 3 }
+
+  .form-actions
+    = f.button :submit, t(".send")

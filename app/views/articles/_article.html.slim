@@ -1,0 +1,10 @@
+.article-item data-id='#{article.id}'
+  h3
+    = link_to(article.title, article)
+  p
+    = article.short_text
+  .article__author
+    = article.author_full_name
+  .article__created_at
+    = article.time_created_in_words
+  hr

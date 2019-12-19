@@ -1,0 +1,10 @@
+.row
+  .columns
+    footer.footer
+      .footer__item &copy; Flatstack #{Time.zone.today.year}
+      .footer__item
+        = t(".title")
+      .footer__item
+        = link_to t(".about_us"), pages_about_path
+      .footer__item
+        = link_to t(".contact_us"), new_feedback_path

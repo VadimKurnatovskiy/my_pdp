@@ -1,0 +1,17 @@
+ru:
+  application:
+    navigation_main:
+      title: "PDP"
+      home: "Главная страница"
+      new_article: "Новая статья"
+    navigation_user:
+      edit_profile: "Редактировать профиль"
+      sign_out: "Выход"
+      sign_in: "Вход"
+      sign_up: "Регистрация"
+      ru: "Русский"
+      en: "English"
+    footer:
+      title: "PDP"
+      about_us: "О нас"
+      contact_us: "Свяжитесь с нами"

@@ -1,0 +1,6 @@
+ru:
+  users:
+    sessions:
+      new:
+        title: "Вход"
+        sign_in: "Войти"

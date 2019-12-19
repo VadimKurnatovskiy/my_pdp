@@ -1,0 +1,15 @@
+ru:
+  activerecord:
+    models:
+      user: Пользователь
+    attributes:
+      user:
+        full_name: Имя Фамилия
+    errors:
+      models:
+        user:
+          attributes:
+            password:
+              too_short: Пароль слишком короткий
+            password_confirmation:
+              confirmation: Введите ваш новый пароль повторно

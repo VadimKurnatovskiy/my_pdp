@@ -1,0 +1,20 @@
+.row
+  .columns
+    h2 = title(t(".title"))
+
+.row
+  .medium-5.columns
+    = simple_form_for resource,
+        as: resource_name,
+        url: session_path(resource_name) do |f|
+
+      .form-inputs
+        = f.input :email, required: false, autofocus: true
+        = f.input :password, required: false
+        = f.input :remember_me, as: :boolean
+
+      .form-actions
+        = f.button :submit, t(".sign_in")
+
+  .medium-5.medium-offset-1.columns.end
+    = render "users/shared/links"

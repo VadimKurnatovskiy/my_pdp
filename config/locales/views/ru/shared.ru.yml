@@ -1,0 +1,10 @@
+ru:
+  users:
+    shared:
+      links:
+        anything_else: "Что-нибудь еще?"
+        sign_in: "Вход"
+        create_new_account: "Создать аккаунт"
+        forgot_your_password: "Забыли пароль?"
+        did_not_receive_confirmation_instructions: "Не получили инструкции по подтвеждению аккаунта?"
+        did_not_receive_unlock_instructions: "Не получили инструкции по разблокировке аккаунта?"

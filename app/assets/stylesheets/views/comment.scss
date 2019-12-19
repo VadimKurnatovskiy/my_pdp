@@ -1,0 +1,14 @@
+.comment {
+  &__author {
+    display: block;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  &__created_at {
+    color: $dark-gray;
+    font-style: italic;
+    text-align: right;
+  }
+}

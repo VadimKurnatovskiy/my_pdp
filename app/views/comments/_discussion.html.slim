@@ -1,0 +1,6 @@
+hr
+h4 Comments (#{comments.count})
+
+= content_tag :div, data: { "fragment-id" => "discussion" } do
+  = render("users/comments/form", comment: comment) if user_signed_in?
+  = render(partial: "comments/comment", collection: comments)

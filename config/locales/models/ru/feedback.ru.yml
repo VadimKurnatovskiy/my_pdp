@@ -1,0 +1,11 @@
+ru:
+  activemodel:
+    models:
+      feedback: Отзыв
+    attributes:
+      feedback:
+        id: id
+        name: Имя Фамилия
+        email: Email
+        phone: Номер для связи
+        message: Сообщение

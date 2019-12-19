@@ -1,0 +1,20 @@
+- title(t(".title", article: article.title))
+
+.row.js-article-rating data-id=article.id
+  .medium-8.columns.article
+    h3
+      = article.title
+    p
+      = article.text
+    .article__author
+      ' Author:
+      = article.author_full_name
+    .article__manage-links
+      - if policy(article).manage?
+        => link_to(t(".edit"), edit_users_article_path)
+        = link_to(t(".destroy"), users_article_path, method: :delete, data: { confirm: t(".confirm") })
+    .article__created_at.clearfix
+      = article.time_created_in_words
+
+    = render("users/articles/rating", rating: rating, article: article) if user_signed_in?
+    = render("comments/discussion", comments: comments, comment: comment)

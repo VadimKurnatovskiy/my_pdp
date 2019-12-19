@@ -1,0 +1,11 @@
+en:
+  activemodel:
+    models:
+      feedback: Feedback
+    attributes:
+      feedback:
+        id: id
+        name: Full name
+        email: Email
+        phone: Phone
+        message: Message

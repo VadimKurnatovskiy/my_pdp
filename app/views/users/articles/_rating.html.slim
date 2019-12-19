@@ -1,0 +1,9 @@
+javascript:
+  App.currentUserRating = #{{current_user_rating.to_json}};
+
+.star-rating
+  - 5.times do |index|
+    = link_to "", "#", class: "js-star-rating-item fa", data: { rating: index + 1 }
+
+.article-rating
+  = "#{article.ratings_count} votes recorded (#{article.average_rating} rating)"

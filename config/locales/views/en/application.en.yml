@@ -1,0 +1,17 @@
+en:
+  application:
+    navigation_main:
+      title: "PDP"
+      home: "Home"
+      new_article: "New Article"
+    navigation_user:
+      edit_profile: "Edit profile"
+      sign_out: "Sign out"
+      sign_in: "Sign in"
+      sign_up: "Sign up"
+      ru: "Русский"
+      en: "English"
+    footer:
+      title: "PDP"
+      about_us: "About us"
+      contact_us: "Contact us"

@@ -1,0 +1,9 @@
+en:
+  feedbacks:
+    new:
+      title: "Contact us"
+      any_questions: "Any questions? Contact us!"
+  application_mailer:
+    feedback:
+      subject: "Feedback"
+      text: "Hello, here is feedback from %{name} (%{email} %{phone})"

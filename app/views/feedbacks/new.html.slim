@@ -1,0 +1,26 @@
+ruby:
+  title(t(".title"))
+  description("Contact the team")
+  keywords("Contact, Email, Touch, Getting in touch")
+  meta robots: "noindex"
+
+.row
+  .columns
+    h3
+      = t(:feedback, scope: "activemodel.models")
+
+.row
+  .medium-6.columns
+    = simple_form_for(feedback, url: feedback_path) do |f|
+
+      legend
+        = t(".any_questions")
+
+      .form-inputs
+        = f.input :name
+        = f.input :email
+        = f.input :phone
+        = f.input :message, as: :text
+
+      .form-actions
+        = f.button :submit, "Submit"

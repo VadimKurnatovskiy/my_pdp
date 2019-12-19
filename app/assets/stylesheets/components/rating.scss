@@ -1,0 +1,18 @@
+$star-item-color: #f5ed00;
+
+.star-rating {
+  display: block;
+  float: left;
+  font-size: 18px;
+
+  a {
+    padding-right: 3px;
+    color: $star-item-color;
+  }
+}
+
+.article-rating {
+  display: block;
+  color: $dark-gray;
+  font-style: italic;
+}

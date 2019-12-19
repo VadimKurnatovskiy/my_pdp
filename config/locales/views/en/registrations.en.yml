@@ -1,0 +1,13 @@
+en:
+  users:
+    registrations:
+      new:
+        title: "Sign up"
+        sign_up: "Sign up"
+      edit:
+        title: "Edit %{full_name}"
+        update: "Update"
+        unhappy: "Unhappy?"
+        cancel_account: "Cancel my account"
+        cancel_my_account: "Cancel my account"
+

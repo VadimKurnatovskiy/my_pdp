@@ -1,0 +1,11 @@
+ru:
+  activerecord:
+    models:
+      article:
+        one: Статья
+        other: Статьи
+    attributes:
+      article:
+        id: Id
+        title: Заголовок
+        text: Текст

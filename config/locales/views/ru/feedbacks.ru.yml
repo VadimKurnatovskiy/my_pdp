@@ -1,0 +1,9 @@
+ru:
+  feedbacks:
+    new:
+      title: "Свяжитесь с нами"
+      any_questions: "Есть вопросы? Свяжитесь с нами!"
+  application_mailer:
+    feedback:
+      subject: "Отзыв"
+      text: "Привет, это отзыв от %{name} (%{email} %{phone})"

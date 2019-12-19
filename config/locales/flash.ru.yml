@@ -1,0 +1,36 @@
+ru:
+  flash:
+    devise:
+      passwords:
+        create:
+          alert: "Пароль не может быть отправлен."
+        update:
+          alert: "пароль не может быть обновлен."
+      confirmations:
+        create:
+          alert: "Инструкции по подтверждению не могут быть отправлены"
+    actions:
+      create:
+        notice: '%{resource_name} был успешно создан.'
+        alert: '%{resource_name} не может быть создан.'
+      update:
+        notice: '%{resource_name} был успешно обновлен.'
+        alert: '%{resource_name} не может быть обновлен.'
+      destroy:
+        notice: '%{resource_name} был успешно удален.'
+        alert: '%{resource_name} не может быть удален.'
+    feedbacks:
+      create:
+        notice: "Отзыв был успешно отправлен."
+    users:
+      articles:
+        create:
+          notice: "Статья была успешно создана."
+          alert: "Статья не может быть создана."
+        update:
+          notice: "Статья была успешно обновлена."
+          alert: "Статья не может быть обновлена."
+        destroy:
+          notice: "Статья была успешно удалена."
+          alert: "Статья не может быть удалена."
+
