@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-ruby "2.3.3"
+ruby "2.4.2"
 
 gem "pg"
-gem "rails", "5.0.2"
+gem "rails", "~> 5.1.6.1"
 
 # assets
 gem "autoprefixer-rails"

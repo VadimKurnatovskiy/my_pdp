@@ -20,7 +20,7 @@ class ArticlesController < ApplicationController
   private
 
   def paginate_articles
-    fetch_articles.page(params[:page].per(10))
+    fetch_articles.page(params[:page]).per(10)
   end
 
   def fetch_articles
