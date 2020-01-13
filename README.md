@@ -2,6 +2,7 @@
 
 It's an simple blog for pdp.
 
+Heroku: https://mypdp-deploy.herokuapp.com/
 ## Use cases
 ```
 Необходимо реализовать приложение со следующими User Stories
