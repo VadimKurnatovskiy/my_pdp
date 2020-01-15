@@ -5,8 +5,6 @@ It's an simple blog for pdp.
 Heroku: https://mypdp-deploy.herokuapp.com/
 ## Use cases
 ```
-Необходимо реализовать приложение со следующими User Stories
-
   Visitor can sign up.
   Visitor can sign in.
   Visitor can recover his/her password.
@@ -24,7 +22,6 @@ Heroku: https://mypdp-deploy.herokuapp.com/
   User can search article by name & text
 ```
 ```
-### Особенности реализации
   Применить coffeescript
   Данные из seed
   Поиск через ransack
